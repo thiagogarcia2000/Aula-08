@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.foto{
+    height: 100px;
+    width: 150px;
+    max-width: 80px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.foto:hover {
+    transform: scale(1.2);
+  }
+.curriculo {
+    background-color: black;
+    padding: 10px 20px;
+    font-size: 24px;
+    font-family: 'games';
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+  }
+  .curriculo:hover {
+    transform: scale(1.2);
+    color: aqua;
+  }
+body{
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;                                   
+    font-weight: 100;
+    color: black;
+    background-color: black;
+}
+header{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+    padding-left: 100px;
+    border-bottom: 20px solid lightblue;
+    padding-bottom: 5px;
+    padding-right: 100px;
+    background-image: url('https://i.pinimg.com/736x/ce/fe/27/cefe275cd753cf2b99cf32a335003751.jpg');
+    background-position: center;
+    background-size: contain;
+}
+.lista{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	padding-right: 20px;
+    list-style: none;
+}
+a{
+    background-color: black;
+    color: whitesmoke;
+	text-decoration: none;
+	font-size: 25px;
+    font-family:'games';
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+.l1:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+
+a:hover{
+   color: aqua;
+}
+.principal {
+    background-image: url('https://i.pinimg.com/originals/12/b2/3a/12b23a7752e8a7a4464c1ff5e596237f.gif');
+    background-size: cover;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+     justify-content: center;
+    align-items: flex-start;
+    border-bottom: 20px solid lightblue;
+  }
+     .perfil {
+    background-color:  lightblue;
+    padding: 70px;
+    border-radius: 50px 50px 200px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family: 'woocaza', sans-serif;                                                                                     
+  } 
+     .perfil img {
+    max-width: 500px;
+    border-radius: 25%;
+    border: 5px solid black;
+    box-shadow: 10px 10px 20px 5px black
+  } 
+  
+ .perfil_nome {
+    font-size: 55px;
+  } 
+  .perfil_profissao {
+    font-size: 30px;
+    color: black;
+    font-style: italic;
+  }
+  .sobre {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 100px;
+    max-width: 80vw;
+    margin: 100px;
+     margin-top: 40px;
+  border-top: 10px solid lightblue;
+  padding-top: 50px;
+  color: lightblue;
+  text-align: center;
+  border-bottom: 10px solid lightblue
+}
+
+  .sobre_titulo {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: "woocaza", cursive;
+    position: relative;
+  }
+  .sobre_infos p {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+  .sobre_infos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+      }
+      .ft2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 300px;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
